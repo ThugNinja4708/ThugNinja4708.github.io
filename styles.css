@@ -136,14 +136,8 @@ ul{
     line-height: 1.18rem;
 }
 
-button{
-    margin-left: 17px;
-    margin-right: 17px;
-    background-color: #301f91;
-    border-radius:8px;
-    padding:10px 12px;
-    color:#fff;
-
+button:hover{
+    background-color: rgb(61, 54, 203);
 }
 
 #cards2{
@@ -171,7 +165,7 @@ ul{
 }
 
 #cards2 img{
-    height: 170px;
+    height: 150px;
     width: 246px;
     display: inline-block;
     border-radius: 3px;
@@ -198,6 +192,7 @@ button{
     border-radius:8px;
     padding:10px 12px;
     color:#fff;
+    transition: 0.2s;
 
 }
 
@@ -221,7 +216,7 @@ button{
     font-family: 'Montserrat',sans-serif;
 }
 .image{
-    
+    background-image: url("./images/img9-identity_security_platform.png");
     background-size: cover;
     height: 300px;
     width: 550px;
@@ -238,14 +233,71 @@ button{
 }
 
 .footerimage{
-    height:50px;
-    width:150px;
+    height:65px;
+    width:240px;
     margin-left:20px;
 }
 
 .footertext{
     margin-left:20px;
     font-size:0.8rem;
+}
+
+#accessmanagement{
+    height:450px;
+    background-image: url("./images/img10-access_management.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#identities{
+    height: 600px;
+    background-color:#222529;
+    text-align: justify;
+}
+.title{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2rem;
+}
+.identities-content{
+    height:250px;
+    width:670px;
+    font-family: 'Comfortaa';
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    display: inline-block;
+}
+#identities img{
+    height: 250px;
+    width:250px;
+    object-fit: contain;
+}
+.identities-image{
+
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+}
+.workforceidentity .identities-image{
+    margin-top: 115px;
+    margin-left: 150px; 
+    position: absolute;
+}
+.workforceidentity .identities-content{
+    margin-top: 135px;
+    margin-left:430px;
+    position: absolute;
+}
+.customeridentity .identities-image{
+    margin-top: 315px;
+    margin-left: 950px; 
+    position: absolute;
+}
+.customeridentity .identities-content{
+    margin-top: 335px;
+    margin-left:250px;
+    position: absolute;
 }
 
 
