@@ -1,0 +1,320 @@
+html{
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: #e5e5e5;
+    font-family:"Open Sans";
+}
+
+/*Common Styling*/
+
+.button{
+	border:none;
+	border-radius:4px;
+    padding:10px;
+	background-color:#0582ca;
+	color:white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:#5cb4ec;
+}
+
+.heading{
+    font-size:2rem;
+    
+}
+
+.title{
+    font-size:1.5rem;
+    font-weight: bold;
+}
+
+.content{
+    font-size:1.2rem;
+}
+
+
+.parent{
+    display:flex;
+    flex-direction: column;
+}
+
+/*header*/
+
+/*Section 1*/
+
+#securityplatform{
+    height:500px;
+    background-image: url("./images/security.PNG");
+    background-size: cover;
+    background-position: center;
+}
+
+.heading#heading1{
+    color: #fff;
+    margin: 80px 0px 0px 25px;
+}
+
+.text#text1{
+    color:#fff;
+    margin: 30px 0px 0px 25px;
+
+}
+
+.button#btn2{
+    margin:30px 0px 0px 25px;
+}
+
+/*Section 2*/
+
+#heading2,#text2{
+    text-align:center;
+}
+
+/*Section 3*/
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    place-items: center;
+    background-color:#e5e5e5;
+   }
+   
+   .card {
+    margin-top:60px;
+    position: relative;
+    display: grid;
+    height: 400px;
+    border-radius:5px 5px;
+    box-shadow: 0 15px 20px #767a7c;
+    background-color:#e5e5e5;
+   }
+    .card_img {
+     width:300px;
+     height:300px;
+     border-radius: 5px 5px;
+    }
+    .button{
+        border: none;
+        padding: 10px;
+        background-color: #0582ca;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .button:hover{
+        background-color:#5cb4ec;
+    }
+   
+   
+   .card_text {
+    padding: 20px 40px 0;
+   }
+   .b1{
+       bottom:-20px;
+       right: -20px;
+    }
+   
+   .b2{
+       bottom:-20px;
+       left:-20px;
+    }
+   
+   .c1{
+       grid-template-columns: 300px 700px;
+   }
+   
+   .c2{
+       grid-template-columns: 600px 400px;
+   }
+
+/*Section 4*/
+
+   .container{
+    margin-top:50px;
+    display: flex;
+    flex-direction:column;
+    height:400px;
+    flex-wrap: wrap;
+    /*background-color: #767a7c;*/
+}
+
+#heading3{
+    font-weight:bold;
+}
+#heading3,#text3{
+
+    padding: 20px 0 0 20px;
+}
+
+.container_image{
+    height:350px;
+    width:600px;
+    padding: 25px 0 0 25px;
+}
+
+/*Section 5*/
+
+.blueprint_card {
+    display:flex;
+    place-items: center;
+    background-color:#5cb4ec;
+   }
+   
+   .colored_cards {
+    margin: 50px auto;
+    position: relative;
+    display: grid;
+    height:400px;
+    border-radius:5px;
+    box-shadow: 0 15px 20px #767a7c;
+    background-color:#e5e5e5;
+    
+   }
+    .blueprint_card_image {
+     width:300px;
+     height:300px;
+     border-radius: 5px 0 0 5px;
+     margin:50px 0 50px -50px;
+    }
+   
+   .colored_cards_text {
+    padding: 50px 40px ;
+   }
+
+   .b3{
+       bottom:20px;
+       right: 20px;
+    }
+   
+   .c3{
+       grid-template-columns: 300px 400px;
+   }
+
+   /*Section 6*/
+   
+
+.resources_card{
+    display:flex;
+    flex-direction:row;
+    margin-left:50px;
+}
+
+.explore_text{
+    margin-top:300px;
+    margin-right:20px;
+}
+
+.gartner_card{
+    margin-top:150px;
+    border-radius:5px;
+    box-shadow: 0 15px 20px #767a7c;
+    margin-left: 50px;
+    height:600px;
+    width:400px;
+}
+
+.gartner_image{
+    height:300px;
+    width:400px;
+    border-radius:5px 5px 0 0;
+}
+
+.video_cards{
+    margin: 25px 0 25px 50px;
+    display:flex;
+    flex-direction:column;
+}
+
+.video_card{
+    margin-bottom:10px;
+    border-radius:5px;
+    box-shadow: 0 15px 20px #767a7c;
+    height:430px;
+    width:350px;
+}
+
+.video_image{
+    margin-top:-15px;
+    border-radius:5px 5px 0 0;
+    height:175px;
+    width:350px;
+}
+
+
+.resources_title{
+    margin-left:5px;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+
+.resources_content{
+    margin-left:5px;
+    font-size:1rem;
+}
+
+.small_text{
+    padding-left: 5px;
+    font-size:0.9rem;
+    color: #767a7c;
+}
+
+.watch_link{
+    padding-left: 5px;
+    text-decoration: none;
+    color:#0582ca;
+}
+
+/*Section 7*/
+   
+   .expert_card {
+    display:flex;
+    place-items: center;
+    background-color:#0582ca;
+   }
+
+    .expert_card_image {
+     width:300px;
+     height:300px;
+     border-radius: 5px 0 0 5px;
+     margin:50px 0 50px 50px;
+    }
+
+   .b4{
+       bottom:20px;
+       left: 20px;
+    }
+   
+   .c4{
+       grid-template-columns: 400px 300px;
+   }
+
+   /*footer*/
+
+ 
+
+
+
+
+
+
+   
+   
+     
+     
+   
+
+
+
+
+
+
+
