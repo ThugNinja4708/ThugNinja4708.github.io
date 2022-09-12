@@ -89,6 +89,13 @@ body{
   top: 1px; */
   background-color: #fff;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  height:10%;
+  width: 100%;
+  z-index:1;
+}
 
 .header ul{
   display: flex;
